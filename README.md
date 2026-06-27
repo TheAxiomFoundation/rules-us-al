@@ -1,5 +1,9 @@
 # rulespec-us-al
 
+This repository is archived. Its canonical content now lives in
+[`TheAxiomFoundation/rulespec-us`](https://github.com/TheAxiomFoundation/rulespec-us)
+under `us-al/`; keep all future RuleSpec work there.
+
 Alabama RuleSpec source registry and policy metadata.
 
 ## Contents
@@ -12,4 +16,4 @@ Alabama RuleSpec source registry and policy metadata.
 
 Use RuleSpec YAML under `statutes/`, `regulations/`, or `policies/` for encoded rules. Keep source text with matching `.meta.yaml` files that record provenance and relations. Large XML or source payloads belong in object storage, with only registry or manifest metadata in Git.
 
-Jurisdiction-specific materials belong in this repo. Shared federal materials belong in `rulespec-us`.
+In the canonical monorepo, Alabama-administered materials live under `us-al/`; shared federal materials live at the country root.
